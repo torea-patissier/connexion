@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF8">
+    <link rel="stylesheet" href="connexion.css">
+    <meta name="viewport" content="width-device-width">
+    <meta http-equiv="content-style-type" content="text/css">
+    <title class="tilte3">Identifiants ou mot de passe oublié?</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <img src="images/spotifyy.png" alt="logo">
+        <h1>Inscription</h1>
+
+    </header>
+
+    <main>
+        <form action="connexion.html" method="post">
+
+
+
+            <p>Nouveau sur Spotify? Pour créer un compte ça se passe ici</p>
+
+            <div id="bloc0">
+
+                <div class="nom">
+                    <label for="mnom">Nom</label><br>
+                    <input type="text" id="Nom" required>
+                </div>
+
+                <div class="chosetel">
+                    <label for="prénom">Prénom</label><br>
+                    <input type="text" id="prénom" required>
+                </div>
+
+            </div>
+            <br>
+
+            <div id="bloc1">
+
+                <div class="choseid">
+
+                    <label for="identifiants">Choisissez un identifiants</label><br>
+                    <input type="text" id="identifiants" required>
+
+                </div>
+
+                <div id="chosesex">
+                    <div class="homme">
+
+                        <label for="sexe-a">Masculin</label><br>
+                        <input type="radio" name="sexe" class="sexe" id="sexe-a" required>
+                    </div>
+
+                    <div class="femme">
+
+                        <label for="sexe-b">Féminin</label><br>
+                        <input type="radio" name="sexe" class="sexe" id="sexe-b" required>
+                    </div>
+
+                    <div class="nonbinaire">
+
+                        <label for="sexe-c">Non binaire</label><br>
+                        <input type="radio" name="sexe" class="sexe" id="sexe-c" required>
+                    </div>
+
+                </div>
+
+            </div>
+            <br>
+
+
+            <div id="bloc2">
+
+                <div class="chosemdp">
+
+                    <label for="mot de passe">mot de passe</label><br>
+                    <input type="password" id="mot de passe" required>
+                </div>
+
+                <div class="chosetel">
+
+                    <label for="tel">Téléphone</label><br>
+                    <input type="text" placeholder="0681472329">
+                </div>
+
+            </div>
+            <br>
+
+
+            <div id="bloc3">
+
+                <div class="chosemdp2">
+
+                    <label for="confirm mot de passe">Confirmez votre mot de passe</label><br>
+                    <input type="password" id="confirm mot de passe" required>
+                </div>
+
+                <div class="etudes">
+                    <label for="étude">Niveau d'étude :</label><br>
+                    <select name="étude" size="1" required>
+                        <option valeur="études">CAP, BEP</option>
+                        <option valeur="études">Baccalauréat</option>
+                        <option valeur="études">DEUG, BTS, DUT, DEUST</option>
+                        <option valeur="études">Licence, licence professionnelle</option>
+                        <option valeur="études">Maîtrise, master 1</option>
+                        <option valeur="études">Master,diplôme d'études approfondies, ingénieur</option>
+                        <option valeur="études">Doctorat, habilitation à diriger des recherches</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+
+            <div id="bloc4">
+
+                <div class="chosebirth">
+                    <label for="start">Date de naissance</label><br>
+                    <input type="date" id="start" name="trip-start" value="04-01-1996" min="31-12-1900"
+                        max="09-10-2020">
+                </div>
+
+                <div class="hobbie">Hobbies</div>
+
+                <div class="hobbies0">
+
+                    <div class="hobbies1">
+
+                        <div class="voyage">
+                            <label for="voyage">Voyage</label><br>
+                            <input type="checkbox" name="voyage" class="voyage" id="voyage" >
+                        </div>
+        
+                        <div class="Sport">      
+                            <label for="Sport-b">Sport</label><br>
+                            <input type="checkbox" name="Sport" class="Sport" id="Sport" >
+                        </div>
+        
+
+                    </div>
+
+                    <div class="hobbies2">
+
+                        <div class="Musique">
+                            <label for="Musique">Musique</label><br>
+                            <input type="checkbox" name="Musique" class="Musique" id="Musique" >
+                        </div>
+        
+                        <div class="Cinéma">       
+                            <label for="Cinéma">Cinéma</label><br>
+                            <input type="checkbox" name="Cinéma" class="Cinéma" id="Cinéma" >
+                        </div>
+                      
+                    </div>
+
+                    <div class="hobbies3">
+
+                        <div class="Cuisine">
+                            <label for="Cuisine">Cuisine</label><br>
+                            <input type="checkbox" name="Cuisine" class="Cuisine" id="Cuisine" >
+                        </div>
+        
+                        <div class="Lecture">
+                            <label for="Lecture">Lecture</label><br>
+                            <input type="checkbox" name="Lecture" class="Lecture" id="Lecture" >
+                        </div>
+     
+                    </div>
+
+                    <div class="hobbies4">
+
+                        <div class="Informatique">
+                            <label for="Informatique">Informatique</label><br>
+                            <input type="checkbox" name="Informatique" class="Informatique" id="Informatique" >
+                        </div>
+        
+                        <div class="Jeux vidéo">
+                            <label for="Jeux vidéo">Jeux vidéo</label><br>
+                            <input type="checkbox" name="Jeux vidéo" class="Jeux vidéo" id="Jeux vidéo" >
+                        </div>
+     
+                    </div>
+
+                </div>
+
+            </div>
+            <br>
+
+
+            <div id="bloc5">
+
+                <div class="mail">
+
+                    <label for="mail">Mail</label><br>
+                    <input type="mail" id="mail" placeholder="jeanaimarre@youpi.fr" required>
+                </div>
+
+                <textarea name="presentation" id="presentation" cols="80" rows="10"
+                    placeholder="Presentez vous!"></textarea>
+
+            </div>
+
+            <div class="valider">
+
+                <label for="Connexion"></label>
+                <input type="submit" value="Valider">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+
+        <div class="connectez">
+            <p>Vous avez déja un compte?</p>
+            <a href="connexion.html" alt="Accueil">Connectez vous.</a>
+        </div>
+
+    </footer>
+</body>
+</html>

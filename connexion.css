@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand");
+/* Pris sur Google font */
+
+body {
+    font-size: medium;
+    font-family: 'Quicksand', sans-serif;
+    /* Pris sur Google font aussi, à utiliser AVEC @import */
+    background-color: #67D861;
+    color: white;
+
+
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: flex;
+    justify-content: flex-start;
+    transform: translateY(1cm);
+
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    border-radius: 8%;
+
+}
+
+
+input[type="text"],input[type="password"], input[type="date"],
+input[type="tel"], input[type="mail"], textarea, .hobbies
+
+{
+    font-family:'Quicksand', sans-serif ;
+    width: 7cm;
+    height: 1.2cm;
+    border-radius: 10px;
+    font-size: large;    
+    text-align: center;
+    border-radius: 1rem;
+    /* Utiliser rem pour un arrondit "propre" */
+}
+
+input[type='submit']{
+    font-family:'Quicksand', sans-serif ;
+    width: 7.1cm;
+    height: 1.2cm;
+    border-radius: 10px;
+    margin-top: 2cm;
+    font-size: large;
+    color: whitesmoke;
+    background-color:#67D861;
+    border-radius: 1rem;
+
+}
+
+footer {
+    text-align: center;
+    margin-top: 1cm;
+    font-size: larger;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.connectez {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+        font-size: large;
+}
+
+.connectez a{
+    margin-top: 0.46cm;
+    margin-left: 0.5cm;
+
+}
+
+.ligne1 p {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#bloc0, #bloc1, #bloc2, #bloc3, #bloc4, #bloc5 {
+    display: flex;
+    text-align: center;  
+}
+
+.mail, .nom, .choseid, .chosemdp, .chosemdp2, .chosebirth {
+    margin-right: 3cm;
+}
+
+#chosesex {
+    display: flex;
+    flex-direction: row;
+}
+
+ .femme, .nonbinaire {
+    margin-left: 0.2cm;
+    margin-right: 0.2cm;
+    transform: translateX(0.2cm);
+}
+
+
+option {
+    font-family:'Quicksand', sans-serif ;
+    width: 7cm;
+    height: 1.2cm;
+    border-radius: 10px;
+    font-size: large;    
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.mail {
+    text-align: center;
+}
+
+textarea {
+    transform: translateY(0.6cm);
+    border-color: #9A9A9A;
+}
+
+.valider {
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies0 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2cm;
+    margin-top: 1cm;
+}
+
+.hobbies1 {
+    margin-right: 0.5cm;
+    margin-left: -4.5cm;
+}
+
+.hobbies3, .hobbies4 {
+    margin-left: 0.5cm;
+}
+
+.hobbie{
+    transform: translateX(2.8cm);
+}
+
+
